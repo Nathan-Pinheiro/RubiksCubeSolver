@@ -7,6 +7,7 @@
 #include <limits>
 
 int RubiksCubeSolver::counter = 0;
+int RubiksCubeSolver::skipped_with_table = 0;
 
 std::vector<Move> generateMoves() 
 {
